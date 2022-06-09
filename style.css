@@ -1,0 +1,514 @@
+.head {
+    position: absolute;
+    width: 100%;
+    height: 115px;
+    top: 0;
+    left: 0;
+    
+    background: #000000;
+}
+
+.name {
+    width: 155px;
+    height: 49px;
+    text-align: center;
+    margin: auto;
+    margin-top: 1%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+
+
+    color: #ffffff;
+}
+
+ul.menu {
+    position: absolute;
+    width: auto;
+    height: 30px;
+    top: 55%;
+    left: 38%;
+
+}
+   ul.menu li {
+    display: inline-block;
+    padding-right: 50px; 
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+#menu {
+    color: white;
+    text-decoration: none;
+}
+
+#menu:visited {
+    color: white;
+    text-decoration: none;
+}
+
+#menu:hover {
+    color: #FFEA2F;
+    text-decoration: none;
+}
+
+.logo {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 47px;
+    top: 17px;
+    border-radius: 50%;
+    background: url(image/logo.png) no-repeat center center, white;
+    background-size: 50px 50px;
+}
+
+.order {
+    position: absolute;
+    width: 164px;
+    height: 20px;
+    left: 88.5%;
+    bottom: 50%;
+
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+
+    color: #FFEA2F;
+    text-decoration: none;
+}
+
+.enter {
+    position: absolute;
+    right: 10%;
+    top: 65%;
+
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.enter:hover {
+    color: #FFEA2F;
+}
+
+.register {
+    position: absolute;
+    right: 2%;
+    top: 65%;
+
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.register:hover {
+    color: #FFEA2F;
+}
+
+.main {
+    position: absolute;
+    width: 100%;
+    height: 3000px;
+    top: 115px;
+    left: 0px;
+    background: url(image/background.jpg) repeat top center;
+    background-size: contain;
+}
+.line5 {
+    position: absolute;
+    width: 50%;
+    height: 2800px;
+    left: 25%;
+
+    
+    background: #000000;
+} 
+
+.line5 {
+    position: relative;
+    width: 90%;
+    height: 2800px;
+    margin: auto;
+
+    background: #000000;
+}
+
+.deviz {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 1000;
+    text-shadow: 1px 1px 1px #000;
+    font-size: 30px;
+    margin-left: 35%;
+    margin-top: 5%;
+    color: #ffffff;
+}
+
+.search {
+    position: relative;
+    width: 400px;
+    height: 30px;
+    left: 39%;
+    margin-top: 4%;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.search input {
+    width: 100%;
+    height: 40px;
+    padding-left: 10px;
+    border-radius: 5px;
+    outline: none;
+    background: #ffffff;
+    border: none;
+    color: #000000;
+  }
+  .search button {
+    position: relative; 
+    width: 60px;
+    height: 42px;
+    left: 90%;
+    bottom: 42px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
+  .search button:before {
+    content: url(image/search2.png);
+    font-size: 16px;
+    color: #ffffff;
+  }
+
+.popular_films_text {
+    position: absolute;
+    width: auto;
+    height: 27px;
+    left: 25%;
+    top: 8%;
+
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 27px;
+
+    color: #FFFFFF;
+}
+
+.popular_films {
+    position: absolute;
+    height: 15%;
+    width: 50%;
+    left: 25%;
+    top: 10%;
+    background: #ffffff;
+    border-radius: 50px;
+}
+
+.list {
+    display: inline;
+    position: absolute;
+    height: 75%;
+    left: 8%;
+    top: 10%;
+    bottom: 5%;
+
+    background: url(image/batman.jpg)
+    no-repeat top center;
+  background-size: cover;
+}
+
+.list2 {
+    display: inline;
+    position: absolute;
+    height: 75%;
+    left: 37.5%;
+    top: 10%;
+    bottom: 5%;
+
+    background: url(image/breaking.jpg) no-repeat top center;
+    background-size: cover;
+}
+
+.list3 {
+    display: inline;
+    position: absolute;
+    height: 75%;
+    right: 8%;
+    top: 10%;
+    bottom: 5%;
+
+    background: url(image/pulp.png) no-repeat top center;
+    background-size: cover;
+}
+
+.list4 {
+    display: inline;
+    position: absolute;
+    height: 70%;
+    right: 8%;
+    top: 10%;
+    bottom: 5%;
+
+    background: url(image/seven.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.list5 {
+    display: inline;
+    position: absolute;
+    height: 70%;
+    left: 8%;
+    top: 10%;
+    bottom: 5%;
+
+    background: url(image/fight.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.list6 {
+    display: inline;
+    position: absolute;
+    height: 70%;
+    left: 37.5%;
+    top: 10%;
+    bottom: 5%;
+
+    background: url(image/shrek.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+#list {
+    width: 25%;
+}
+
+#list:hover {
+    animation: hover_scale linear forwards;
+}
+
+#list:active {
+    animation: focus_scale linear;
+}
+
+#price {
+    position: absolute;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    bottom: 6%;
+    text-decoration: line-through;
+    opacity: 50%;
+}
+
+#discount {
+    position: absolute;
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+bottom: 0%;
+}
+
+.price1 {
+    left: 23%;
+}
+
+.price1_discount {
+    left: 18%;
+}
+
+.price2 {
+    left: 53%;
+}
+
+.price2_discount {
+    left: 47%;
+}
+
+.price3 {
+    left: 83%;
+}
+
+.price3_discount {
+    left: 77%;
+}
+
+.discount_text {
+    position: absolute;
+    width: auto;
+    height: 27px;
+    left: 25%;
+    top: 33%;
+
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 27px;
+
+    color: #FFFFFF;
+}
+
+.discount {
+    position: absolute;
+    width: 50%;
+    height: 15%;
+    left: 25%;
+    top: 35%;
+    background: #ffffff;
+    border-radius: 50px;
+}
+
+.reviews_text {
+    position: absolute;
+    width: auto;
+    height: 27px;
+    left: 25%;
+    top: 58%;
+
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 27px;
+
+    color: #FFFFFF;
+}
+
+.reviews {
+    position: absolute;
+    width: 50%;
+    height: 15%;
+    left: 25%;
+    top: 60%;
+    background: #ffffff;
+    border: 2px black;
+    border-radius: 50px;
+}
+
+.list7 p{
+    position: absolute;
+    width: 18%;
+    height: 55%;
+    left: 8%;
+    top: 10%;
+    bottom: 5%;
+    margin-right: 65%;
+    padding: 30px;
+    text-align: center;
+    border-radius: 5px;
+
+    background-color: #ffffff;
+    background-size: cover;
+
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.list8 {
+    position: absolute;
+    width: 18%;
+    height: 55%;
+    left: 37.5%;
+    top: 13.7%;
+    bottom: 5%;
+    padding: 30px;
+    margin-right: 35%;
+    text-align: center;
+    border-radius: 5px;
+
+    background: #ffffff;
+    background-size: cover;
+
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.list9 {
+    position: absolute;
+    width: 18%;
+    height: 55%;
+    right: 8%;
+    top: 13.7%;
+    bottom: 5%;
+    margin-left: 65%;
+    text-align: center;
+    padding: 30px;
+    border-radius: 5px;
+
+    background-color: #ffffff;
+    background-size: cover;
+
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.footer {
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    margin-top: 0;
+    margin-left: 0;
+    bottom: 0;
+    background-color: #000000;
+}
+
+.connect {
+    color: white;    
+    text-align: left;
+    padding-left: 25%;
+    padding-top: 5%;
+
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 3;
+    opacity: 50%;
+}
+
+@keyframes hover_scale {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.1);
+    }
+}
+
+@keyframes focus_scale {
+    0% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}

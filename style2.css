@@ -1,0 +1,209 @@
+.head {
+    position: absolute;
+    width: 100%;
+    height: 115px;
+    top: 0;
+    left: 0;
+    
+    background: #000000;
+}
+
+.main {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 115px;
+    left: 0px;
+    background: url(image/background.jpg) repeat top center;
+    background-size: cover;
+}
+
+.name {
+    width: 155px;
+    height: 49px;
+    text-align: center;
+    margin: auto;
+    margin-top: 1%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+
+
+    color: #ffffff;
+}
+
+ul.menu {
+    position: absolute;
+    width: auto;
+    height: 30px;
+    top: 55%;
+    left: 38%;
+
+}
+   ul.menu li {
+    display: inline-block;
+    padding-right: 50px; 
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+#menu {
+    color: white;
+    text-decoration: none;
+}
+
+#menu:visited {
+    color: white;
+    text-decoration: none;
+}
+
+#menu:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.logo {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 47px;
+    top: 17px;
+    border-radius: 50%;
+    background: url(image/logo.png) no-repeat center center, white;
+    background-size: 50px 50px;
+}
+
+.order {
+    position: absolute;
+    width: 164px;
+    height: 20px;
+    left: 88.5%;
+    bottom: 50%;
+
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+
+    color: #FFEA2F;
+    text-decoration: none;
+}
+
+.enter {
+    position: absolute;
+    right: 10%;
+    top: 65%;
+
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.register {
+    position: absolute;
+    right: 2%;
+    top: 65%;
+
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.line1 {
+    position: relative;
+    width: 50%;
+    height: 500px;
+    margin-left: 25%;
+    margin-top: 10%;
+    margin-bottom: 2%;
+    padding-top: 5%;
+    border-radius: 10px;
+
+
+
+    background: #ffffff;
+}
+
+.input-container {
+    width: 100%;
+    margin-bottom: 30px;
+    border: 3px black;
+}
+
+.input-container p {
+    margin-left: 35%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    border: 2;
+}
+
+.input-field {
+    width: 30%;
+    padding: 10px;
+    outline: 3px black;
+    border-radius: 10px;
+    border: 2;
+    margin-left: 34%;
+}
+
+.input-field:focus {
+    border-radius: 10px;
+}
+
+/* Set a style for the submit button */
+.btn {
+    background-color: rgb(0, 0, 0);
+    margin-top: 15%;
+    margin-left: 35%;
+    border-radius: 10px;
+    color: white;
+    padding: 25px 35px;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+    opacity: 0.9;
+
+    
+}
+
+.btn:hover {
+    opacity: 1;
+}
+.footer {
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    margin-top: 2%;
+    left: 0;
+    background-color: #000000;
+}
+
+.connect {
+    color: white;    
+    text-align: left;
+    padding-left: 25%;
+    padding-top: 5%;
+
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 3;
+    opacity: 50%;
+}
